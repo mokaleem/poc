@@ -1,9 +1,11 @@
-import Forecast from "./components/Forecast";
+import { MyTable } from "./components/Table";
+import { MyTab } from "./components/Tabs";
 
 function App() {
   return (
     <div className="App">
-      <Forecast />
+      <MyTable />
+      <MyTab />
     </div>
   );
 }
